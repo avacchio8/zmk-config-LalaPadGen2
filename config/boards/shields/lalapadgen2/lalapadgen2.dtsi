@@ -97,7 +97,6 @@
                     INPUT_BTN_4
                     INPUT_BTN_5 
                     INPUT_BTN_6
-                    INPUT_BTN_7
                     >;
         bindings = <
                     &tp_to_pos  POS_TP_LCLK_R
@@ -107,7 +106,6 @@
                     &tp_to_pos  POS_TP_RIGHT_R
                     &tp_to_pos  POS_TP_UP_R
                     &tp_to_pos  POS_TP_DOWN_R
-                    &tp_to_pos  POS_TP_PINCH_R
                     >;
     };
     trackpad_key_behaviors_L: trackpad_key_behaviors_L {
