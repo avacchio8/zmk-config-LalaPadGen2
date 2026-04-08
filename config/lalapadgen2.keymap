@@ -59,11 +59,6 @@
             key-positions = <0 1>;
         };
 
-        cmb_delete {
-            bindings = <&kp DELETE>;
-            key-positions = <8 9>;
-        };
-
         cmb_minus {
             bindings = <&kp MINUS>;
             key-positions = <18 19>;
@@ -128,7 +123,7 @@
 &kp A         &mt2 LCTRL S     &mt2 LEFT_ALT D  &mt2 LSHIFT F  &kp G                      &kp H        &mt2 RSHIFT J    &mt2 RIGHT_ALT K  &mt2 RCTRL L   &lt 3 SEMICOLON
 &mt2 LCTRL Z  &mt2 LEFT_WIN X  &kp C            &kp V          &kp B                      &kp N        &kp M            &kp COMMA         &kp PERIOD     &mt2 RSHIFT SLASH
 &none         &kp LWIN         &mkp MB1         &lt 1 SPACE    &lt 5 TAB  &none   &none   &lt 5 ENTER  &lt 2 BACKSPACE  &kp RCTRL         &kp RIGHT_ALT  &kp RSHIFT
-              &none            &kp RIGHT        &kp DOWN       &kp LEFT   &kp UP  &kp UP  &kp LEFT     &kp DOWN         &kp RIGHT         &none
+              &mkp MB1         &kp RIGHT        &kp DOWN       &kp LEFT   &kp UP  &kp UP  &kp LEFT     &kp DOWN         &kp RIGHT         &none
 &mkp LCLK     &mkp RCLK        &mkp MCLK                                                                                &mkp LCLK         &mkp RCLK      &mkp MCLK
 &mkp MB4      &mkp MB5         &kp LG(TAB)      &kp LG(D)      &kp LCTRL                  &mkp MB4     &mkp MB5         &kp LG(TAB)       &kp LG(D)      &kp LCTRL
             >;
