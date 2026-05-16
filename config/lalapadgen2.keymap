@@ -184,7 +184,7 @@
             bindings = <
 &kp ESC              &kp LG(LS(C))     &kp LG(V)          &kp LG(LC(T))      &kp LG(LS(T))                      &kp TAB  &kp LA(PRINTSCREEN)  &kp LC(C)  &kp LC(V)  &trans
 &kp LS(LG(S))        &kp LCTRL         &kp LALT           &kp LSHFT          &trans                             &trans   &kp RSHFT            &kp RALT   &kp RCTRL  &kp GRAVE
-&kp LA(PRINTSCREEN)  &kp LC(LG(LEFT))  &kp LC(LG(RIGHT))  &kp LS(LG(RIGHT))  &kp LC(LS(LG(B)))                  &trans   &kp LS(LG(RIGHT))    &trans     &kp RGUI   &kp N1
+&kp LA(PRINTSCREEN)  &kp LC(LG(LEFT))  &kp LC(LG(RIGHT))  &kp LS(LG(RIGHT))  &kp LC(LS(LG(B)))                  &trans   &kp LS(LG(RIGHT))    &trans     &kp RGUI   &kp INS
 &trans               &trans            &trans             &space4            &trans             &trans  &trans  &trans   &trans               &trans     &trans     &trans
                      &trans            &trans             &trans             &trans             &trans  &trans  &trans   &trans               &trans     &trans
 &trans               &trans            &trans                                                                                                 &trans     &trans     &trans
